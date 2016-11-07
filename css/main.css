@@ -83,6 +83,18 @@ textarea {
   padding: 0.2em 0;
 }
 
+@media only screen and (max-width: 550px) {
+  /* line 5, ../scss/_base.scss */
+  main {
+    flex-flow: column;
+  }
+
+  /* line 12, ../scss/_base.scss */
+  main section {
+    width: 100%;
+  }
+}
+/*end media block*/
 /* ==========================================================================
    Helper classes
    ========================================================================== */
