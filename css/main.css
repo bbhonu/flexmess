@@ -83,15 +83,65 @@ textarea {
   padding: 0.2em 0;
 }
 
+/* line 1, ../scss/_base.scss */
+body {
+  background-color: rgba(50, 200, 90, 0.6);
+}
+
+/* line 5, ../scss/_base.scss */
+header {
+  text-align: center;
+}
+
+/* line 9, ../scss/_base.scss */
+main {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+}
+
+/* line 15, ../scss/_base.scss */
+main section {
+  background-color: white;
+  text-align: justify;
+}
+
+/* line 22, ../scss/_base.scss */
+.one {
+  background-color: yellow;
+}
+
+/* line 26, ../scss/_base.scss */
+.two {
+  background-color: red;
+}
+
+/* line 30, ../scss/_base.scss */
+.three {
+  background-color: pink;
+}
+
+/* line 38, ../scss/_base.scss */
+h2 {
+  text-align: center;
+}
+
+/* line 42, ../scss/_base.scss */
+p, h2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 @media only screen and (max-width: 550px) {
-  /* line 5, ../scss/_base.scss */
+  /* line 49, ../scss/_base.scss */
   main {
     flex-flow: column;
   }
 
-  /* line 12, ../scss/_base.scss */
+  /* line 56, ../scss/_base.scss */
   main section {
     width: 100%;
+    margin-bottom: 30px;
   }
 }
 /*end media block*/
