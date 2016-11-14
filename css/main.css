@@ -97,7 +97,7 @@ header {
 main {
   display: flex;
   justify-content: center;
-  flex-flow: row;
+  flex-flow: row wraps;
 }
 
 /* line 15, ../scss/_base.scss */
@@ -106,39 +106,48 @@ main section {
   text-align: justify;
 }
 
-/* line 22, ../scss/_base.scss */
+/* line 21, ../scss/_base.scss */
 .one {
+  width: 33%;
   background-color: yellow;
 }
 
 /* line 26, ../scss/_base.scss */
 .two {
+  width: 33%;
   background-color: red;
 }
 
-/* line 30, ../scss/_base.scss */
+/* line 31, ../scss/_base.scss */
 .three {
+  width: 33%;
   background-color: pink;
 }
 
-/* line 38, ../scss/_base.scss */
+/* line 36, ../scss/_base.scss */
+.four-container {
+  width: 100%;
+  background-color: white;
+}
+
+/* line 42, ../scss/_base.scss */
 h2 {
   text-align: center;
 }
 
-/* line 42, ../scss/_base.scss */
+/* line 46, ../scss/_base.scss */
 p, h2 {
   padding-left: 20px;
   padding-right: 20px;
 }
 
 @media only screen and (max-width: 550px) {
-  /* line 49, ../scss/_base.scss */
+  /* line 53, ../scss/_base.scss */
   main {
     flex-flow: column;
   }
 
-  /* line 56, ../scss/_base.scss */
+  /* line 60, ../scss/_base.scss */
   main section {
     width: 100%;
     margin-bottom: 30px;
