@@ -107,15 +107,12 @@ body {
 
 /* line 24, ../scss/_base.scss */
 main {
-  background-color: black;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
   width: 100%;
 }
 
-/* line 33, ../scss/_base.scss */
+/* line 31, ../scss/_base.scss */
 h1, h2, h3 {
   font-family: "poppins";
   font-weight: 600;
@@ -123,7 +120,7 @@ h1, h2, h3 {
   letter-spacing: -1.3px;
 }
 
-/* line 41, ../scss/_base.scss */
+/* line 39, ../scss/_base.scss */
 header {
   font-size: 30px;
   color: white;
@@ -131,56 +128,57 @@ header {
   margin-top: -7px;
 }
 
-/* line 47, ../scss/_base.scss */
+/* line 45, ../scss/_base.scss */
 span {
   color: #2a7d1c;
 }
 
-/* line 50, ../scss/_base.scss */
+/* line 48, ../scss/_base.scss */
 p {
   font-size: 14px;
   text-align: justify;
 }
 
-/* line 56, ../scss/_base.scss */
+/* line 54, ../scss/_base.scss */
 header {
   text-align: center;
 }
 
-/* line 60, ../scss/_base.scss */
+/* line 58, ../scss/_base.scss */
 main {
   display: flex;
-  align-content: space-around;
-  justify-content: center;
+  align-content: center;
+  justify-content: space-around;
+  max-width: 100%;
 }
 
-/* line 66, ../scss/_base.scss */
+/* line 65, ../scss/_base.scss */
 main section {
   background-color: white;
 }
 
-/* line 73, ../scss/_base.scss */
+/* line 72, ../scss/_base.scss */
 .one {
-  width: 32%;
+  width: 33%;
   text-align: justify;
   border: solid 4px #2a7d1c;
 }
 
-/* line 83, ../scss/_base.scss */
+/* line 82, ../scss/_base.scss */
 figcaption {
   font-size: 11px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-/* line 91, ../scss/_base.scss */
+/* line 90, ../scss/_base.scss */
 .two {
-  width: 32%;
+  width: 33%;
   align-items: center;
   border: solid 4px rgba(42, 125, 28, 0.8);
 }
 
-/* line 98, ../scss/_base.scss */
+/* line 97, ../scss/_base.scss */
 .line {
   height: 2px;
   width: 50%;
@@ -191,20 +189,20 @@ figcaption {
   margin-bottom: 30px;
 }
 
-/* line 108, ../scss/_base.scss */
+/* line 107, ../scss/_base.scss */
 .break {
   height: 1px;
   width: 33%;
 }
 
-/* line 113, ../scss/_base.scss */
+/* line 112, ../scss/_base.scss */
 .three {
-  width: 32%;
+  width: 33%;
   text-align: left;
   border: solid 4px rgba(42, 125, 28, 0.6);
 }
 
-/* line 119, ../scss/_base.scss */
+/* line 118, ../scss/_base.scss */
 .most {
   font-size: 11px;
   text-align: center;
@@ -212,85 +210,84 @@ figcaption {
   margin-bottom: 20px;
 }
 
-/* line 125, ../scss/_base.scss */
+/* line 124, ../scss/_base.scss */
 .please {
   font-size: 24px;
   font-weight: lighter;
-  width: 100%;
   text-align: left;
   word-spacing: -2px;
   margin-top: 50px;
   margin-left: 20px;
 }
 
-/* line 137, ../scss/_base.scss */
+/* line 135, ../scss/_base.scss */
 .four {
   width: 100%;
   background-color: white;
 }
 
-/* line 143, ../scss/_base.scss */
+/* line 141, ../scss/_base.scss */
 h2 {
   text-align: center;
 }
 
-/* line 147, ../scss/_base.scss */
+/* line 145, ../scss/_base.scss */
 p, h2, ul, h3 {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 152, ../scss/_base.scss */
+/* line 150, ../scss/_base.scss */
 img {
   max-width: 100%;
   margin-bottom: 10px;
   border-color: rgba(0, 0, 20, 0.6);
 }
 
-/* line 159, ../scss/_base.scss */
+/* line 157, ../scss/_base.scss */
 figure {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 166, ../scss/_base.scss */
+/* line 164, ../scss/_base.scss */
 ul {
   list-style-type: none;
   text-align: left;
 }
 
-/* line 171, ../scss/_base.scss */
+/* line 169, ../scss/_base.scss */
 li {
   margin-bottom: 10px;
   font-size: 14px;
 }
 
 @media only screen and (max-width: 550px) {
-  /* line 178, ../scss/_base.scss */
+  /* line 176, ../scss/_base.scss */
   main {
     flex-flow: column;
     justify-content: center;
   }
 
-  /* line 187, ../scss/_base.scss */
+  /* line 185, ../scss/_base.scss */
   .one {
     width: 100%;
   }
 
-  /* line 193, ../scss/_base.scss */
+  /* line 191, ../scss/_base.scss */
   .two {
     width: 100%;
   }
 
-  /* line 197, ../scss/_base.scss */
+  /* line 195, ../scss/_base.scss */
   .three {
     width: 100%;
   }
 }
 /*end media block*/
 @media only screen and (max-width: 800px) {
-  /* line 210, ../scss/_base.scss */
+  /* line 208, ../scss/_base.scss */
   p {
     text-align: center;
   }
